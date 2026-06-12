@@ -1,7 +1,7 @@
 
 # macOS USB Security Enforcer for Microsoft Defender
 
-A custom, zero-maintenance middleware architecture that bridges the gap between the raw macOS hardware layer (`IOKit`) and Microsoft Defender for Endpoint Device Control. Designed for deployment via Microsoft Intune or Jamf.
+A custom, zero-maintenance middleware architecture that bridges the gap between the raw macOS hardware layer (`IOKit`) and Microsoft Defender for Endpoint Device Control. Designed for deployment via Microsoft Intune.
 
 ## The Problem
 Microsoft Defender's Device Control for macOS effectively blocks unauthorized USB storage, but its native user notifications are often silent or lack the hardware serial numbers users need to request IT access. Furthermore, standard USB bus scanning frequently triggers false-positive storage blocks on generic multi-port hubs and network adapters.
